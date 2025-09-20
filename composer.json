@@ -1,0 +1,25 @@
+{
+    "name": "khalyomede/state-reflection.guide",
+    "description": "The official State Reflection guidelines.",
+    "type": "projecct",
+    "license": "MIT",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Khalyomede\\StateReflectionGuide\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khalyomede",
+            "email": "khalyomede@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "tightenco/jigsaw": "1.8.2"
+    },
+    "scripts": {
+        "build": "jigsaw build"
+    }
+}

@@ -1,0 +1,26 @@
+services:
+  php:
+    image: php:8.4-alpine
+    entrypoint: php
+    user: www-data
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 80:80
+
+  composer:
+    image: composer:2
+    entrypoint: composer
+    user: www-data
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+
+  npm:
+    image: node:24-alpine
+    entrypoint: npm
+    user: node
+    working_dir: /home/node/app
+    volumes:
+      - .:/home/node/app
