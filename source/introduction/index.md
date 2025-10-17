@@ -9,6 +9,6 @@ description: A brief description of State Reflection.
 
 State Reflection is a CQRS principle that derive from Event Sourcing by enforcing an atomic relationship between commands and queries.
 
-[Explaination ⟶](../explaination)
+[Next: Explaination](../explaination)
 
-[⌂ Home](../)
+[Home](../)

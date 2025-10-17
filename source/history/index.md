@@ -37,6 +37,6 @@ And consequences:
 
 As you can see, State Reflection is not a "silver bullet" approach. It is just another approach to CQRS, that seems to be more natural for web developpers that are used to MVC or "classic" synchronous scenarios.
 
-[⟵ Auditing](../auditing)
+[Previous: Auditing](../auditing)
 
-[⌂ Home](../)
+[Home](../)

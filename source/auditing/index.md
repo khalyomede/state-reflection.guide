@@ -36,8 +36,8 @@ In the context of a web app, you may want to store any requests (POST, DELETE, G
 
 As a general advice, these "Audit Reflections" would need to save the full context of the HTTP request (headers, queries, POST body, ...). Consider using a compressed format to save the Reflection payload (like MsgPack if your storage layer supports binary columns).
 
-[⟵ Example](../example)
+[Previous: Example](../example)
 
-[History ⟶](../history)
+[Next: History](../history)
 
-[⌂ Home](../)
+[Home](../)

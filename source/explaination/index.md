@@ -71,8 +71,8 @@ As command are replayed, their State is de facto the exact same as when the Acti
 
 State Reflection ensure that when queries are not modified, replaying reflections at any given time will produce the exact same State, no matter how many time reflections are replayed.
 
-[⟵ Introduction](../introduction)
+[Previous: Introduction](../introduction)
 
-[Storage ⟶](../storage)
+[Next: Storage](../storage)
 
-[⌂ Home](../)
+[Home](../)

@@ -67,8 +67,8 @@ cart checkout request received
 
 This may be required when you need to attach cart related meta data to your payment request, although in this case it would be preferable to use a UUID that you can generate or retreive, performing your side effects, and only then running your Action.
 
-[⟵ Example](../explaination)
+[Previous: Replay](../replay)
 
-[History ⟶](../history)
+[Next: Auditing](../auditing)
 
-[⌂ Home](../)
+[Home](../)

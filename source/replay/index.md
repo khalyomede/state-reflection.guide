@@ -39,8 +39,8 @@ CartPaidEvent
 
 You would want to dispatch the event from both your controller and your replay command.
 
-[⟵ Storage](../storage)
+[Previous: Storage](../storage)
 
-[Example ⟶](../example)
+[Next: Example](../example)
 
-[⌂ Home](../)
+[Home](../)
