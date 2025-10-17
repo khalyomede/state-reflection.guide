@@ -14,7 +14,7 @@ _version 0.1.0 - 2025-09-20_
 [github.com/khalyomede/state-reflection.guide](https://github.com/khalyomede/state-reflection.guide)
 
 - [Introduction](./introduction)
-- [Explaination](./explaination)
+- [Explanation](./explanation)
 - [Storage](./storage)
 - [Replay](./replay)
 - [Example](./example)

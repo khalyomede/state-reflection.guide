@@ -1,11 +1,11 @@
 ---
 extends: _layouts.main
 section: body
-title: Explaination — State Reflection
+title: Explanation — State Reflection
 description: State Reflection principles explained.
 ---
 
-# Explaination
+# Explanation
 
 A command must be followed by at least one (or more) query.
 

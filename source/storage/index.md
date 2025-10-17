@@ -44,7 +44,7 @@ State are the data you return to your surfaces, so choose the data storage that 
 
 **Mostly adviced**: SQL-based data types, or any other data storage type that supports commit/rollback mecanism.
 
-[Previous: Explaination](../explaination)
+[Previous: Explanation](../explanation)
 
 [Next: Replay](../replay)
 
