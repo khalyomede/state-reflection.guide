@@ -18,4 +18,5 @@ _version 0.1.0 - 2025-09-20_
 - [Storage](./storage)
 - [Replay](./replay)
 - [Example](./example)
+- [Auditing](./auditing)
 - [History](./history)
