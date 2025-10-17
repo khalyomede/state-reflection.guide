@@ -31,9 +31,9 @@ State represent the queries that computed a new state from a previous state.
 
 ## Reflection
 
-A reflection is an event that contains all the data that represent Command received.
+A reflection is an event that contains all the data that represent a received Command.
 
-It is persisted in an immutable append-only storage.
+It must be persisted in a (ideally immutable append-only) storage system.
 
 Queries react to the Command to compute the State. Reflections simply mirror the Commands for later replay.
 
@@ -65,7 +65,7 @@ As reflections are immutable, they can be replayed.
 
 As reflections are stored with their timing, they **must** be replay in the timing order.
 
-As command are replayed, their State is de facto the exact same as when the was Action first performed (thanks to the State snapshotting occuring during before Action started).
+As command are replayed, their State is de facto the exact same as when the Action was first performed (thanks to the State snapshotting occuring during before Action started).
 
 ## State immutability
 

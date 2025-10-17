@@ -20,7 +20,7 @@ Replaying reflections simply means:
 
 Replaying have two specific goals:
 
-- Allowing you to change your queries, to suit new or evolving business needs
+- Allowing you to change your queries, to suit new or evolving surfaces needs
 - Allowing you to change your State data storage scheme easily
 - Allowing you to debug by going at a specific point in time
 
