@@ -21,7 +21,7 @@ Prefer immutable data types, like WORM databases.
 
 **Mostly adviced**: SQL-based data types, or any other data storage type that supports commit/rollback mecanism
 
-### Timing
+## Reflection timing
 
 As reflections need to be attached to a timing, Timeseries databases are very well suited since they automatically attach the timing for you.
 
