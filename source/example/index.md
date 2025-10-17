@@ -65,7 +65,7 @@ cart checkout request received
   Redirect response return
 ```
 
-This may be required when you need to attach cart related meta data to your payment request, although in this case it would be preferable to use a UUID that you can generate or retreive, performing your side effects, and only then running your Action.
+This may be required when you need to attach cart related meta data to your payment request, although in this case it would be preferable to use a UUID that you can generate or retrieve, performing your side effects, and only then running your Action.
 
 [Previous: Replay](../replay)
 

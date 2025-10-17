@@ -7,7 +7,7 @@ description: Explaination on how Stateless Reflection can unlock auditing capabi
 
 # Auditing
 
-As mentioned, an Action ensures only valide Reflections (commands) are saved, by ensuring the whole stack of State (Queries) is successful.
+As mentioned, an Action ensures only valid Reflections (commands) are saved, by ensuring the whole stack of State (Queries) is successful.
 
 However, your system may (for business reasons) not have to listen to every single entrypoint.
 
@@ -29,7 +29,7 @@ One day you may decide to display the list of "currently logged devices". Only a
 
 In the context of a web app, you may want to store any requests (POST, DELETE, GET, ...) as a Reflection. This would allow you to:
 
-- Either perform security audit on a regular purpose, by scanning the users' access behaviors
+- Either perform security audit on a regular basis, by scanning the users' access behaviors
 - Apply some rate limiting
 - Setup some alerting threshold (for example, on the number of times a resource is access)
 - ...

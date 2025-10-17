@@ -19,7 +19,7 @@ Avoid temporary data storage types like In-Memory data storage systems (unless t
 
 Prefer immutable data types, like WORM databases.
 
-**Mostly adviced**: SQL-based data types, or any other data storage type that supports commit/rollback mecanism
+**Mostly advised**: SQL-based data types, or any other data storage type that supports commit/rollback mecanism
 
 ## Reflection timing
 
@@ -31,7 +31,7 @@ If you do not use a Timeseries database to store your Reflection, make sure to *
 
 ## State
 
-As they will be queried a lot more, favor data storage with high read throuput.
+As they will be queried a lot more, favor data storage with high read throughput.
 
 State are the data you return to your surfaces, so choose the data storage that is best suited for your uses cases:
 
@@ -42,7 +42,7 @@ State are the data you return to your surfaces, so choose the data storage that 
 - Vector databases for deep relationship between data and recommendation/search systems
 - ...
 
-**Mostly adviced**: SQL-based data types, or any other data storage type that supports commit/rollback mecanism.
+**Mostly advised**: SQL-based data types, or any other data storage type that supports commit/rollback mecanism.
 
 [Previous: Explanation](../explanation)
 
